@@ -6,7 +6,7 @@ npm start
 npm test                
 
 # Report 
-# Fix Error target info
+## Fix error target info
 
 npx serenity-bdd update
 
@@ -15,10 +15,10 @@ npx serenity-bdd update
 
 import {} from '@serenity-js/rest';
 
-DeleteRequest()
-GetRequest()
-HTTPRequest()
-HeadRequest()
+* DeleteRequest()
+* GetRequest()
+* HTTPRequest()
+* HeadRequest()
 
 
 # install dependency as dev

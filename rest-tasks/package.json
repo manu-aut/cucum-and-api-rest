@@ -3,20 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "description": "",
-  "author": "Jan Molak <jan.molak@smartcodeltd.co.uk>",
+  "author": "2k30",
   "homepage": "https://serenity-js.org/",
   "license": "CC-BY-NC-SA-4.0",
   "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/serenity-js/workshop.git"
-  },
   "scripts": {
     "test": "mocha -g \"exercise\"",
     "solution": "mocha -g \"solution\""
-  },
-  "bugs": {
-    "url": "https://github.com/serenity-js/workshop/issues"
   },
   "dependencies": {
     "@serenity-js/assertions": "^2.12.1",
