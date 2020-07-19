@@ -1,7 +1,5 @@
-## Acceptance test automation JS/TSC
-
-#Usage
-
+#  Acceptance test automation JS/TSC
+## Usage
 npm ci                  
 npm run lint            
 npm start               
@@ -13,7 +11,7 @@ npm test
 npx serenity-bdd update
 
 # Usage sjs/REST  API Reference
-# model
+## model
 
 import {} from '@serenity-js/rest';
 
@@ -34,9 +32,9 @@ assert.equal(foo, 'bar');
 assert.lengthOf(foo, 3)
 
 
-# Working with REST APIs using Serenity Screenplay JAVA
+## Working with REST APIs using Serenity Screenplay JAVA
 
-# Setting up your project
+## Setting up your project
 
 <dependency>
     <groupId>net.serenity-bdd</groupId>
