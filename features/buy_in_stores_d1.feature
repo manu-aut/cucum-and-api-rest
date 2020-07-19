@@ -8,7 +8,7 @@ Feature:  buy an item in the day without IVA
 
     Scenario Outline: validate de confirmation message after purchasing
 
-        Given theMan add the cheapest cell phone to the car most <Rango de precio>
+        Given theMan add the cheapest product to the car most <price range>
         When enters the data in the form
             | name              | country  | city     | credit card | month  | year |
             | Juancho no se que | Colombia | Medellin | 34567897654 | August | 2020 |

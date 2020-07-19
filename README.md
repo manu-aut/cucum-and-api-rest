@@ -1,4 +1,4 @@
-#  Acceptance test automation JS/TSC
+#  Acceptance test automation js/tsc
 ## Usage
 npm ci                  
 npm run lint            
@@ -10,7 +10,7 @@ npm test
 
 npx serenity-bdd update
 
-# Usage sjs/REST  API Reference
+## Usage sjs/REST  API Reference
 ## model
 
 import {} from '@serenity-js/rest';
