@@ -1,19 +1,18 @@
-# Acceptance test automation JS/TSC
+## Acceptance test automation JS/TSC
 
-## Usage
+#Usage
 
-npm ci                  # installs the node modules
-npm run lint            # runs the code linter
-npm start               # starts the web server with a demo app
-npm test                # executes report ./target/site/serenity
+npm ci                  
+npm run lint            
+npm start               
+npm test                
 
-## Report 
-## Fix Error target info
+# Report 
+# Fix Error target info
+
 npx serenity-bdd update
 
-## Usage sjs/REST
-# API Reference
-
+# Usage sjs/REST  API Reference
 # model
 
 import {} from '@serenity-js/rest';
@@ -35,7 +34,7 @@ assert.equal(foo, 'bar');
 assert.lengthOf(foo, 3)
 
 
-## Working with REST APIs using Serenity Screenplay JAVA
+# Working with REST APIs using Serenity Screenplay JAVA
 
 # Setting up your project
 
@@ -47,7 +46,7 @@ assert.lengthOf(foo, 3)
 </dependency>
 
 
-The CallAnApi ability allows the actor to perform the bundled Serenity REST interaction classes. This include:
+* The CallAnApi ability allows the actor to perform the bundled Serenity REST interaction classes. This include:
 
     Get.resource()
     Post.to()
@@ -55,20 +54,19 @@ The CallAnApi ability allows the actor to perform the bundled Serenity REST inte
     Delete.from()
     
     
-## Postman
+# Postman
+# Collections Using Docker
 
-#  Collections Using Docker
+* if you want to go to another level with postman
 
-if you want to go to another level with postman
-
-* devops
+# devOps
 Jenkins postman
-* container
+# Docker
 docker pull postman
 docker run -t <image>/
 docker run -p 
 
-* Terminal
+# Terminal
 newman run <URL> varibles <Collections.json> or ...
 
 
